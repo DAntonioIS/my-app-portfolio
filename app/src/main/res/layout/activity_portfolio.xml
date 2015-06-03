@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PortfolioActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/port_header"
+            android:id="@+id/textView"
+            android:layout_marginTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_bot"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="@dimen/port_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/app_1"
+            android:background="@color/udacious"
+            android:layout_marginTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_bot"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="@dimen/port_button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_top"
+            android:text="@string/app_2"
+            android:background="@color/udacious"
+            android:paddingBottom="@dimen/padding_bot"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="@dimen/port_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/app_3"
+            android:background="@color/udacious"
+            android:layout_marginTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_bot"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="@dimen/port_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/app_4"
+            android:background="@color/udacious"
+            android:layout_marginTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_bot"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="@dimen/port_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/app_5"
+            android:background="@color/udacious"
+            android:id="@+id/button5"
+            android:layout_marginTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_bot"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="@dimen/port_button_width"
+            android:layout_height="wrap_content"
+            android:text="@string/app_6"
+            android:id="@+id/button6"
+            android:background="@color/SbnNav4"
+            android:textColor="@color/White"
+            android:layout_marginTop="@dimen/padding_top"
+            android:paddingBottom="@dimen/padding_bot"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DAntonio Portfolio App</string>
+    <string name="port_header">D Antonio Nanodegree Apps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_1">SPOTIFY STREAMER</string>
+    <string name="app_2">SCORES APP</string>
+    <string name="app_3">LIBRARY APP</string>
+    <string name="app_4">BUILD IT BIGGER</string>
+    <string name="app_5">XYZ READER</string>
+    <string name="app_6">CAPSTONE: DANTONIO APP</string>
+
+</resources>
